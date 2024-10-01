@@ -1,0 +1,250 @@
+/*
+===========================================================
+							FONTE
+===========================================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* 
+==========================================================
+	CSS RESET	
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+==========================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+=======================================================
+						GERAL
+=======================================================
+*/
+
+html {
+    font-size: calc(11px + 0.390625vw);
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+
+a{
+    text-decoration: none;
+	color: black;
+}
+
+body {
+	margin: 2.8vw 10vw 0 10vw;
+}
+
+
+
+
+/*
+=======================================================
+						HEADER 
+=======================================================
+*/
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul{
+	display: flex;
+	margin: 10px 0 3vw 0;
+}
+
+header nav ul li a{
+	font-weight: bold;
+	color: #553C16;
+	font-size: 0.9rem;
+	margin: 0 0 0 2.3vw;
+}
+
+
+/*
+===========================================================
+						VIDEO-CALL 
+===========================================================
+*/
+
+
+
+section.video-call {
+	display: flex;
+	border-bottom: 2px solid black;
+	padding: 0 0 100px 0;
+}
+
+section.video-call img{
+	border-radius: 90vw;
+}
+
+section.video-call img.imagem{
+	margin: 2vw 0 0 0;
+}
+
+section.video-call h1{
+	font-size: 2.8rem;
+	border-bottom: 1px solid #DEDEDE;
+	padding: 0 0 50px 0;
+}
+
+
+section.video-call ul{
+	margin: 7vw 0 0 17vw;
+	font-size: 0.5rem;
+}
+
+section.video-call ul li.segunda p.p{
+	margin: 45px 0 30px 0;
+	font-size: 18px;
+	color: #404852;
+}
+
+section.video-call ul li.segunda >div{
+	display: flex;
+}
+
+section.video-call ul li.segunda >div p {
+	font-size: 13px;
+	margin: 6px 0 5px 17px;
+}
+
+section.video-call ul li.segunda >div div span{
+	color: #2C3A4B;
+}
+
+
+
+
+/*
+===========================================================
+						BROWSE 
+===========================================================
+*/
+
+section.browse {
+	margin: 4vw 0 0 4vw;
+	border-bottom: 2px solid black;
+}
+
+
+section.browse >div{
+	display: flex;
+}
+
+section.browse h1{
+	font-size: 3.1rem;
+	margin: 3vw 0 30px 0;
+}
+
+section.browse >div >div >p{
+	color: #404852;
+	font-size: 19px;
+}
+
+section.browse >div >div ul{
+	margin: 0 0 0 15vw;
+}
+
+section.browse >div >div ul li{
+	border-bottom: 1px solid #D8D8D8;
+	margin: 3vw 0 6vw 0;
+}
+
+section.browse >div >div ul li h2 span{
+	color: #D8D8D8;
+	font-weight: bolder;
+	font-size: 1.7rem;
+	padding: 0 20px 10px 0;
+}
+
+section.browse >div >div ul li h2{
+	font-size: 2.2rem;
+}
+
+section.browse >div >div ul li p{
+	font-size: 1rem;
+	margin: 1.3vw 0 3vw 70px;
+	color: #747474;
+}
+
+
+
+
+
+
+
+
+
+/*
+=======================================================
+						FOOTER 
+=======================================================
+*/
+
+
+
+
+footer{
+	text-align: center;
+	margin: 6.5vw 0 6.5vw 0;
+}
+
+footer ul{
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li{
+	margin: 10px 10px 10px 10px;
+	font-size: 2rem;
+}
